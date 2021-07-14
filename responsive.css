@@ -1,0 +1,174 @@
+/* Ipad Responsive Start  */
+@media only screen and (max-width: 768px) {
+    /* responsive header start */
+   
+    .header{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 95%;
+        margin: 0;
+    }
+    .navbar ul li{
+        margin: 16px 1px 15px 0;
+    }
+
+    .navbar ul li a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+      
+    .btn{
+        padding: 7px 35px;
+        margin: 5px 12px;
+    }
+
+    .side-by-side .right-side img{
+        width: 23rem;
+    }
+    .side-by-side .left-side h2{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    /* responsive header end */
+    
+    /* responsive blog section start */
+    .article-section{
+        width: 90%;
+        margin: 30px auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+    }
+      /* responsive blog section End */
+    /*responsive highlight section Start */
+   
+    .highlight-section{
+       
+        width: 100%;
+        padding: 20px;
+    }
+    .highlight-section .highlight-text h2{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .highlight-section .highlight-banner img {
+        max-width: 25rem;
+    }
+     /*responsive highlight section End */
+
+     /* responsive contact form start */
+    
+     .Contact-form {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .Contact-form .contact-img{
+        display: none;
+    }
+
+    .Contact-form .contact {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+     /* responsive contact form End */
+
+     /* responsive footer start  */
+     .footer-section .logo a img {
+        width: 15rem;
+    }
+     /* responsive footer End  */
+  }
+
+/* Ipad Responsive End  */
+
+
+/* iPhone X responsive Start  */
+@media only screen and (max-width: 600px) {
+    /* responsive header start  */
+    .header{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar ul{
+        display: none;
+    }
+      
+    .btn{
+        padding: 7px 35px;
+        margin: 5px 12px;
+    }
+
+    .side-by-side{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 60px auto;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .side-by-side .right-side img{
+        width: 13rem;
+    }
+    .side-by-side .left-side h2{
+        font-size: 40px;
+        line-height: 60px;
+    }
+        /* responsive header End  */
+
+        /* responsive artical section  start  */
+        .article-section{
+           
+            margin: 15px auto;
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 50px;
+        }
+        /* responsive artical section  End  */
+
+        /*responsive highlight section Start */
+   
+    .highlight-section{
+       flex-direction: column;
+    }
+    .highlight-section .highlight-text h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight-section .highlight-banner img {
+        max-width: 25rem;
+    }
+     /*responsive highlight section End */
+
+      /* responsive contact form start */
+    
+      .Contact-form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Contact-form .contact-img{
+        display: none;
+    }
+
+    .Contact-form .contact {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+     /* responsive contact form End */
+
+     /* responsive footer start  */
+     .footer-section .logo a img {
+        width: 8rem;
+    }
+     /* responsive footer End  */
+
+  }
